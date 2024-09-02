@@ -154,6 +154,11 @@ public class FormularioLoguin extends javax.swing.JFrame {
             jTextFieldMail.setText("Coloque su email nuevamente");
             jPasswordField1.setText("");
         }
+        else{
+            JOptionPane.showMessageDialog(this,"Bienvenido");
+            jTextFieldMail.setText("Coloque su email nuevamente");
+            jPasswordField1.setText("");
+        }
        
     }//GEN-LAST:event_jButtonRegistrarActionPerformed
 
